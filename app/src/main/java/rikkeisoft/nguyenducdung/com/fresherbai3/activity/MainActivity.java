@@ -1,18 +1,12 @@
-package rikkeisoft.nguyenducdung.com.fresherbai3;
+package rikkeisoft.nguyenducdung.com.fresherbai3.activity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.RadioButton;
-import android.widget.TextView;
 
-import rikkeisoft.nguyenducdung.com.fresherbai3.baitap.activity.LinearActivity;
-import rikkeisoft.nguyenducdung.com.fresherbai3.baitap.activity.RelativeActivity;
-import rikkeisoft.nguyenducdung.com.fresherbai3.baitap.activity.TableActivity;
+import rikkeisoft.nguyenducdung.com.fresherbai3.R;
 
 public class MainActivity extends AppCompatActivity {
     private Button btnLinear;

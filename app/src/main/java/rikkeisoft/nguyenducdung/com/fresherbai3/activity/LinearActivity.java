@@ -1,4 +1,4 @@
-package rikkeisoft.nguyenducdung.com.fresherbai3.baitap.activity;
+package rikkeisoft.nguyenducdung.com.fresherbai3.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;

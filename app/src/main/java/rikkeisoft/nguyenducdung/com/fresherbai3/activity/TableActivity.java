@@ -1,4 +1,4 @@
-package rikkeisoft.nguyenducdung.com.fresherbai3.baitap.activity;
+package rikkeisoft.nguyenducdung.com.fresherbai3.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -26,18 +26,21 @@ public class TableActivity extends AppCompatActivity {
         btnColor1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                btnColor1.setForeground(getDrawable(R.drawable.fg_red));
                 tvShow.setBackgroundColor(Color.RED);
             }
         });
         btnColor2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                btnColor2.setForeground(getDrawable(R.drawable.fg_yellow));
                 tvShow.setBackgroundColor(Color.YELLOW);
             }
         });
         btnColor3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                btnColor3.setForeground(getDrawable(R.drawable.fg_blue));
                 tvShow.setBackgroundColor(Color.BLUE);
             }
         });
