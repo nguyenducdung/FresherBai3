@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow android:weightSum="4">
+        <Button
+            android:id="@+id/btn_color_01"
+            android:textColor="@color/colorRed"
+            android:text="@string/color_1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/btn_color_02"
+            android:textColor="@color/colorYellow"
+            android:text="@string/color_2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/btn_color_03"
+            android:textColor="@color/colorBlue"
+            android:text="@string/color_3"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TableRow android:weightSum="10">
+        <TextView
+            android:id="@+id/tv_color_table"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:background="@color/colorYellow"
+             />
+    </TableRow>
+    <TableRow android:weightSum="4" android:gravity="right">
+        <Button
+            android:layout_weight="2"
+            android:id="@+id/btn_clear"
+            android:text="Clear"
+            />
+    </TableRow>
+</TableLayout>
